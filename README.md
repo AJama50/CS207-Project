@@ -18,6 +18,7 @@ My goal for this project is to build a temperature regulator. A temperature regu
 Bill of Materials (note: will be subject to change) :
 
 * Arduino
+* Breadboard
 * Temperature Sensor (TMP36)
 * LCD display
 * Plastic Box 
