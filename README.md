@@ -26,6 +26,7 @@ Bill of Materials (note: will be subject to change) :
 * Heating element 
 * Incandescent bulb
 * Thermoelectric cooler
+* Heat Sink
 
 # Build Instructions
 
