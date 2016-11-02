@@ -19,7 +19,7 @@ Bill of Materials (note: will be subject to change) :
 
 * 1 x Arduino
 * 1 x Breadboard
-* Temperature Sensor (TMP36)
+* 1 x Temperature Sensor (TMP36)
 * 1 x LCD display
 * 1 x Plastic Box 
 * Aluminium foil
