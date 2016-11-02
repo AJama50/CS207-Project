@@ -35,3 +35,6 @@ Bill of Materials (note: will be subject to change) :
 * Abdullah Jama
 
 # Credits
+
+* Adafruit - https://learn.adafruit.com/tmp36-temperature-sensor
+* Arduino - https://www.arduino.cc
