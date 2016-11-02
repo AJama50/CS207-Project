@@ -30,4 +30,8 @@ Bill of Materials (note: will be subject to change) :
 
 # Usage
 
+# Team
+
+* Abdullah Jama
+
 # Credits
