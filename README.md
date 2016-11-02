@@ -17,16 +17,14 @@ My goal for this project is to build a temperature regulator. A temperature regu
 
 Bill of Materials (note: will be subject to change) :
 
-* Arduino
-* Breadboard
+* 1 x Arduino
+* 1 x Breadboard
 * Temperature Sensor (TMP36)
-* LCD display
-* Plastic Box 
+* 1 x LCD display
+* 1 x Plastic Box 
 * Aluminium foil
-* Heating element 
-* Incandescent bulb
-* Thermoelectric cooler
-* Heat Sink
+* 1 x Heating element/ Incandescent bulb/ Thermoelectric cooler
+* 1 x Heat Sink
 
 # Build Instructions
 
