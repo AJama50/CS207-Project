@@ -1,4 +1,4 @@
-# Temperature Regulator
+# Temperature Regulator [ v1.0 ]
 
 
 
