@@ -30,7 +30,7 @@ Bill of Materials (note: will be subject to change) :
 
 # Build Instructions
 
-CS207-Project/img/circuitSchematic.jpg
+![ScreenShot](https://raw.github.com/{AJama50}/{CS207-Project}/{img}/{circuitSchematic.jpg})
 
 # Usage
 
