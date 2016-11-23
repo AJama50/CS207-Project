@@ -30,6 +30,8 @@ Bill of Materials (note: will be subject to change) :
 
 # Build Instructions
 
+![](CS207-Project/img/circuitSchematic.jpg)
+
 # Usage
 
 This temperature regulator will be able to change the internal temperature of the plastic box by reading in, through the temperature sensor, the external temperature of the surrounding environment. The set temperature, current temperature, and whether the heater is on or off will be displayed using an LCD display. Pushbuttons will be used to turn on/off the heater, and also to adjust(up/down) the desired temperature. I might also use a potentiometer to adjust the temperature.
