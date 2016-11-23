@@ -23,7 +23,7 @@ Bill of Materials (note: will be subject to change) :
 * 1 x LCD display
 * 1 x Plastic Box 
 * 1 x Aluminium foil
-* 1 x Heating element/ Incandescent bulb/ Thermoelectric cooler
+* 1 x Heating element/ Incandescent bulb/ Thermoelectric cooler/ DC Fan
 * 1 x Heat Sink
 * 4 x Push buttons
 * 1 x Potentiometer
