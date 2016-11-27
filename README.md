@@ -15,6 +15,11 @@ My goal for this project is to build an arduino-controlled temperature regulator
 
 # Requirements and Materials
 
+Libraries required:
+
+* LiquidCrystal.h
+* EEPROM.h
+
 Bill of Materials (note: will be subject to change) :
 
 * 1 x Arduino
@@ -30,7 +35,7 @@ Bill of Materials (note: will be subject to change) :
 
 # Build Instructions
 
-![ScreenShot](https://raw.github.com/{AJama50}/{CS207-Project}/{img}/{circuitSchematic.jpg})
+![alt text] [img]
 
 # Usage
 
