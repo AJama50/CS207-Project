@@ -4,6 +4,7 @@ int tempSensor = A0;
 int reading = 0;
 int relay = 7;
 
+//initialize the library with n.os of the interface pins
 LiquidCrystal lcd(12,11,5,4,3,2);
 
 
@@ -16,11 +17,14 @@ void setup(){
 
 void loop(){
   
+  //set cursor to column 0, line 1
+  
   reading = analogRead(tempSensor);
   
   int celsius = reading/2;
     lcd.setCursor(0,0);
-    lcd.print("Temperature");
+    lcd.print("Temperature: ");
+    //print the n.o of seconds since reset
     lcd.setCursor(0,1);
     lcd.print(celsius, DEC);
     lcd.print((char)223);
