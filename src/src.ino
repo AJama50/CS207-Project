@@ -12,7 +12,7 @@ void setup(){
   //set LCD's n.o of columns and rows
   lcd.begin(16,2);
   //print message to LCD
-  pinMode(relay,OUTPUT);
+  pinMode(DCfan,OUTPUT);
 }
 
 void loop(){
