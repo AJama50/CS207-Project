@@ -19,8 +19,8 @@ void loop(){
   
   //set cursor to column 0, line 1
   
-  reading = analogRead(tempSensor);
-  tempinCelsius = AnalogToCelsius(reading);
+  int reading = analogRead(tempSensor);
+  float tempinCelsius = AnalogToCelsius(reading);
   
     lcd.setCursor(0,0);
     lcd.print("Temperature: ");
