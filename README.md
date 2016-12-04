@@ -4,6 +4,14 @@
 
 My goal for this project is to build an arduino-controlled temperature regulator. A temperature regulator is a device that measures temperature change of a space, and achieves a desired average temperature by adjusting passage of heat energy into or out of the space. This type of technology is used in common household devices such as ovens, water heaters, and refrigerators, but they also have scientific and industrial applications. They are used to keep the temperature stable in a situation where something is to be heated, cooled, or both and to remain at the target temperature despite the constant temeprature change in the environment.
 
+Why are temperature regulators needed and what do they do? 
+
+They are required to keep the temperature stable in a situation where something is to be heated, cooled, or both and to remain at the target temperature despite the constant temperature change in the environment. There are two types to this regulation; 1) Open loop - is the application of constant heating or cooling without regard for actual temperature output and 2) Closed loop - is a bit more complicated this is when output temperature is continuously measured and adjusted to maintain a constant output of the desired temperature.
+
+How does it work?
+
+Regulators control some variable at a set value, and require at least two variables one being the actual input signal and the other is the desired set-point value. The actual input signal is compared with the set-point value to check if they match. If not then the controller results in generating an output signal change based on the difference between the input signal and the set point value while also examining whether the input signal converges towards the set-point value or diverges from it. This causes a response by the output signal to correct the input signal so that it matches the set-point value.
+
 ![alt text] [pic1]
 
 
