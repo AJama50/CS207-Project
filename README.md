@@ -21,7 +21,6 @@ My goal for this project is to build an arduino-controlled temperature regulator
 Libraries required:
 
 * LiquidCrystal.h
-* EEPROM.h
 
 Bill of Materials (note: will be subject to change) :
 
