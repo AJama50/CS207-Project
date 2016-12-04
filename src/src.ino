@@ -2,7 +2,7 @@
 
 int tempSensor = A0;
 int reading = 0;
-int relay = 7;
+int DCfan = 7;
 
 //initialize the library with n.os of the interface pins
 LiquidCrystal lcd(12,11,5,4,3,2);
@@ -20,28 +20,36 @@ void loop(){
   //set cursor to column 0, line 1
   
   reading = analogRead(tempSensor);
+  tempinCelsius = AnalogToCelsius(reading);
   
-  int celsius = reading/2;
     lcd.setCursor(0,0);
     lcd.print("Temperature: ");
     //print the n.o of seconds since reset
     lcd.setCursor(0,1);
-    lcd.print(celsius, DEC);
+    lcd.print(tempinCelsius, DEC);
     lcd.print((char)223);
     lcd.print("C");
   
-    if ( celsius > 35){
+    if ( tempinCelsius > 35){
       
-      digitalWrite(7, HIGH);
+      digitalWrite(DCfan, HIGH);
       
     }
   else{
-    digitalWrite(7, LOW);
+    digitalWrite(DCfan, LOW);
   }
   
   delay(500);
   lcd.clear();
 
+}
+
+float AnalogToCelsius(int reading){
+  
+  float tempinCelsius;
+  tempinCelsius = reading / 1023.0 * 5.0 * 100 - 50;
+  return tempinCelsius;
+  
 }
 
 
