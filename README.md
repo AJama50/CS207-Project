@@ -34,6 +34,7 @@ Bill of Materials (note: will be subject to change) :
 * 1 x Heat Sink
 * 4 x Push buttons
 * 1 x Potentiometer
+* 1 x 9v Battery
 
 # Build Instructions
 
