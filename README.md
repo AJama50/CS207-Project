@@ -39,7 +39,7 @@ Bill of Materials (note: will be subject to change) :
 # Build Instructions
 
 ![alt text] [pic2]
-[pic2]: https://github.com/AJama50/CS207-Project/blob/master/img/circuitSchematic2.jpg "Logo Title Text 2"
+[pic2]: https://github.com/AJama50/CS207-Project/blob/master/img/circuitSchematic2.png "Logo Title Text 2"
 
 # Usage
 
