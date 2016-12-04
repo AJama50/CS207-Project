@@ -4,6 +4,9 @@
 
 My goal for this project is to build an arduino-controlled temperature regulator. A temperature regulator is a device that measures temperature change of a space, and achieves a desired average temperature by adjusting passage of heat energy into or out of the space. This type of technology is used in common household devices such as ovens, water heaters, and refrigerators, but they also have scientific and industrial applications. They are used to keep the temperature stable in a situation where something is to be heated, cooled, or both and to remain at the target temperature despite the constant temeprature change in the environment.
 
+![alt text] [pic1]
+
+
 # Repository Contents
 
 * /src
@@ -35,7 +38,8 @@ Bill of Materials (note: will be subject to change) :
 
 # Build Instructions
 
-![alt text] [img]
+![alt text] [pic2]
+[pic2]: https://github.com/AJama50/CS207-Project/blob/master/img/circuitSchematic2.jpg "Logo Title Text 2"
 
 # Usage
 
