@@ -65,3 +65,5 @@ This temperature regulator will be able to change the internal temperature of th
 
 * Adafruit - https://learn.adafruit.com/tmp36-temperature-sensor
 * Arduino - https://www.arduino.cc
+* Makeuseof - http://www.makeuseof.com/tag/make-your-own-temperature-controller-with-an-arduino
+* Electroschematics - http://www.electroschematics.com/8998/arduino-temperature-controlled-relay/
