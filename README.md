@@ -49,6 +49,11 @@ Bill of Materials (note: will be subject to change) :
 ![alt text] [pic2]
 [pic2]: https://github.com/AJama50/CS207-Project/blob/master/img/circuitSchematic2.png "Temp. Regulator Schematic 1"
 
+
+An Arduino-controlled temperature regulator is very easy to use, and also easy to set up. First download and upload the code to the Arduino. The second step is to follow the circuit schematic, and LCD pin connection table on how to wire the circuit.The temperature sensor has 3 pins the ones on the left and right are connected to 5V and  ground while the middle pin is connected to analog pin 0. The transistor that acts as an electronic switch to the DC fan also has 3 pins the collector is connected to the DC fan while the base is connected to a 10k resistor which is connected to pin 10, and the emitter is connected to ground. A flyback diode that is connected to the DC fan is used to protect the Arduino from the DC fan when power is turned off because the DC fan can act as a generator. 
+
+The Arduino can only provide 5V to the DC fan which is not nearly enough to power a 12V DC fan, so use a 9V battery as an extra power supply for the DC fan. The LCD shield has many pin connections, so it is best to use the LCD pin connection to make sure it is connected properly. The pins 1, 5, and 16 frOm the LCD are connected to ground while pins 2 and 15 are connected to 5V while the pins 4, 6, 11, 12, 13, 14 from the LCD are connected to pins 2, 3, 4, 5, 11, 12 on the Arduino. The pin 3 from the LCD is connected to a potentiometer on the breadboard that controls the contrast of the LCD. 
+
 # Usage
 
 This temperature regulator will be able to change the internal temperature of the plastic box by reading in, through the temperature sensor, the external temperature of the surrounding environment. The set temperature, current temperature, and whether the heater is on or off will be displayed using an LCD display. Pushbuttons will be used to turn on/off the heater, and also to adjust(up/down) the desired temperature. I might also use a potentiometer to adjust the temperature.
