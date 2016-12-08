@@ -12,9 +12,6 @@ How does it work?
 
 Regulators control some variable at a set value, and require at least two variables one being the actual input signal and the other is the desired set-point value. The actual input signal is compared with the set-point value to check if they match. If not then the controller results in generating an output signal change based on the difference between the input signal and the set point value while also examining whether the input signal converges towards the set-point value or diverges from it. This causes a response by the output signal to correct the input signal so that it matches the set-point value.
 
-![alt text] [pic1]
-
-
 # Repository Contents
 
 * /src
