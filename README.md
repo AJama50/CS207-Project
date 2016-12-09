@@ -47,10 +47,13 @@ An Arduino-controlled temperature regulator is very easy to use, and also easy t
 
 The Arduino can only provide 5V to the DC fan which is not nearly enough to power a 12V DC fan, so use a 9V battery as an extra power supply for the DC fan. The LCD shield has many pin connections, so it is best to use the LCD pin connection to make sure it is connected properly. The pins 1, 5, and 16 frOm the LCD are connected to ground while pins 2 and 15 are connected to 5V while the pins 4, 6, 11, 12, 13, 14 from the LCD are connected to pins 2, 3, 4, 5, 11, 12 on the Arduino. The pin 3 from the LCD is connected to a potentiometer on the breadboard that controls the contrast of the LCD. 
 
-![alt text] [pic2]
-[pic2]: https://github.com/AJama50/CS207-Project/blob/master/img/circuitSchematic2.png "Temp. Regulator Schematic 1"
-
 # Usage
+
+![alt text] [pic2]
+[pic2]: https://github.com/AJama50/CS207-Project/blob/master/img/Schematic.png "Temp. Regulator Schematic"
+
+![alt text] [pic3]
+[pic2]: https://github.com/AJama50/CS207-Project/blob/master/img/circuitSchematic2.png "Temp. Regulator Breadboard Schematic"
 
 This temperarature regulator is fairly easy to set up, and even easier to use all you need to do is download and upload the code to your Arduino.
 
