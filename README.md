@@ -52,6 +52,8 @@ The Arduino can only provide 5V to the DC fan which is not nearly enough to powe
 ![alt text] [pic2]
 [pic2]: https://github.com/AJama50/CS207-Project/blob/master/img/Schematic.png "Temp. Regulator Schematic"
 
+
+
 ![alt text] [pic3]
 [pic3]: https://github.com/AJama50/CS207-Project/blob/master/img/circuitSchematic2.png "Temp. Regulator Breadboard Schematic"
 
