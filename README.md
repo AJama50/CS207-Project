@@ -53,7 +53,7 @@ The Arduino can only provide 5V to the DC fan which is not nearly enough to powe
 [pic2]: https://github.com/AJama50/CS207-Project/blob/master/img/Schematic.png "Temp. Regulator Schematic"
 
 ![alt text] [pic3]
-[pic2]: https://github.com/AJama50/CS207-Project/blob/master/img/circuitSchematic2.png "Temp. Regulator Breadboard Schematic"
+[pic3]: https://github.com/AJama50/CS207-Project/blob/master/img/circuitSchematic2.png "Temp. Regulator Breadboard Schematic"
 
 This temperarature regulator is fairly easy to set up, and even easier to use all you need to do is download and upload the code to your Arduino.
 
